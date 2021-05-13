@@ -1,0 +1,375 @@
+/* ===Default CSS Start=== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    background: #06062d !important;
+}
+
+@font-face {
+    src: url(../font/GTWalsheimPro-Regular.ttf);
+    font-family: 'GTWalsheim-Regular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../font/GTWalsheimPro-Black.ttf);
+    font-family: 'GTWalsheim-Black';
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* ===Default CSS End === */
+
+
+/* ===Logo Section Start=== */
+
+
+/* ===Logo Section End=== */
+
+
+/* ===Hero Section Start=== */
+
+.bnr_content_text {
+    padding: 130px 0px;
+}
+
+.bnr_content_text h1 span {
+    color: #76ffba;
+}
+
+.bnr_content_text h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.bnr_content_text {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.bnr_content_text a,
+.secure_btn a {
+    display: inline-block;
+    background: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid #7c1bff;
+    box-shadow: 0px 0px 9px -1px #76ffba;
+}
+
+.bnr_content_text a span,
+.secure_btn a span {
+    padding-right: 20px;
+    color: #111;
+    font-size: 24px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.bnr_content_text a::after,
+.secure_btn a::after {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    content: url(../img/next.png);
+}
+
+
+/* ===Hero Section End === */
+
+
+/* ===Featured Section Start=== */
+
+section#feature {
+    position: relative;
+    padding: 40px 0px;
+}
+
+section#feature::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    border-top: 1px solid #7c1bff;
+    width: 100%;
+}
+
+section#feature::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #7c1bff;
+    width: 100%;
+}
+
+.feature_head h2 {
+    color: #fff;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 42px;
+}
+
+
+/* ===Featured Section End=== */
+
+
+/* ===App Info section Start=== */
+
+#app_info {
+    position: relative;
+    z-index: 1;
+}
+
+#app_info::after {
+    content: '';
+    background: url(../img/app_info_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.app_sec_head h2 {
+    color: #76ffba;
+    font-size: 42px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.left_app_info,
+.right_app_info {
+    background: #06062d;
+    color: #fff;
+    font-family: 'GTWalsheim-Regular';
+    font-size: 20px;
+    border: 2px solid #7c1bff;
+    margin: 80px 0px;
+    padding: 15px 15px;
+    position: relative;
+}
+
+.card_title {
+    position: absolute;
+    top: -50px;
+    padding: 10px 25px;
+    background: #7c1bff;
+    color: #06062d;
+    font-weight: bold;
+}
+
+.ct_left {
+    right: -2px;
+}
+
+.ct_right {
+    left: -2px;
+}
+
+.safety {
+    text-align: center;
+}
+
+.safety_text {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.safety_img {
+    display: inline-block;
+    width: 15%;
+}
+
+.safety_text p {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'GTWalsheim-Regular';
+}
+
+.safety_img img {
+    box-shadow: 3px 3px 1px 1px #76ffb8;
+    border-radius: 50%;
+}
+
+.secure_head {
+    color: #76ffb8;
+    font-family: 'GTWalsheim-Regular';
+    font-size: 42px;
+}
+
+.safety_text p span {
+    color: #76ffba;
+}
+
+
+/* ===App Info section End=== */
+
+
+/* ===Author Section Start=== */
+
+.author_name h2 {
+    color: #7c1bff;
+    font-family: 'GTWalsheim-Black';
+}
+
+.author_name h3 {
+    color: #7c1bff;
+    font-family: 'GTWalsheim-Black';
+}
+
+.authhor_img img {
+    border-radius: 50%;
+    border: 2px solid #7c1bff;
+}
+
+.authhor_img {
+    position: relative;
+}
+
+.authhor_img::after {
+    position: absolute;
+    content: url(../img/author_after_book.png);
+    bottom: -30px;
+    right: 405px;
+}
+
+.author_message p {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'GTWalsheim-Regular';
+    margin-top: 35px;
+}
+
+.author_ask h3 {
+    color: #7c1bff;
+    font-family: 'GTWalsheim-Regular';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.author_ask_btn a span {
+    margin-left: -20px;
+}
+
+.author_ask_btn a {
+    display: inline-block;
+    padding: 20px 55px;
+    background: #fff;
+    color: #111;
+    font-size: 22px;
+    font-family: 'GTWalsheim-Black';
+    border-radius: 40px;
+    border: 2px solid #7c1bff;
+    box-shadow: 0px 0px 8px 1px #76ffba;
+    position: relative;
+}
+
+.author_ask_btn a::after {
+    position: absolute;
+    content: url(../img/next.png);
+    top: 26px;
+    right: 20px;
+}
+
+#author {
+    position: relative;
+}
+
+#author::before {
+    position: absolute;
+    content: '';
+    border-top: 1px solid #7c1bff;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#author::after {
+    position: absolute;
+    content: '';
+    border-top: 1px solid #7c1bff;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.author_desctription {
+    padding: 20px 0px;
+    color: #fff;
+    font-family: 'GTWalsheim-Regular';
+    font-size: 22px;
+}
+
+.footer_social ul li {
+    display: inline-block;
+    padding: 12px;
+    font-size: 42px;
+}
+
+.footer_social ul li a {
+    color: #fff;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    border: 1px solid #fff;
+}
+
+.app_download_btn ul li {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #fff;
+    border-radius: 50px;
+    height: 80px;
+    width: 225px;
+    border: 2px solid #7c1bff;
+    box-shadow: 0px 0px 5px 1px #7c1bff;
+    font-family: 'GTWalsheim-Regular';
+    font-size: 16px;
+    margin: 0px 20px;
+}
+
+.store_icon i {
+    font-size: 42px;
+}
+
+.store_icon {
+    float: left;
+}
+
+.app_download_btn ul li a {
+    color: #111;
+}
+
+.store_name {
+    font-weight: bold;
+}
+
+
+/* ===Author Section End=== */
